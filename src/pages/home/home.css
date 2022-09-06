@@ -1,0 +1,104 @@
+ .charts-background {
+   background: #fdfbfb;
+ }
+
+ .line-container {
+   padding: 30px;
+   margin: 20px;
+   width: 590px;
+   background: #fff;
+   box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+ }
+
+ .doughnut-container {
+   padding: 30px;
+   margin: 20px;
+   width: 590px;
+   background: #fff;
+   box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+ }
+
+ .charts_card {
+   border-radius: 10px;
+ }
+
+ .card_filter_grid {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px dashed #eee;
+   border-radius: 10px;
+   padding: 10px;
+ }
+
+ .card_filter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .card_filter h5 {
+   margin: 0;
+   font-size: 13px;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+ }
+
+ .card_filter input {
+   border: 1px solid #eee;
+   margin: 0 10px;
+   width: 155px;
+   font-size: 13px;
+   letter-spacing: 1px;
+   border-radius: 5px;
+ }
+
+ .charts_card h4 {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 14px;
+   padding-bottom: 10px;
+   font-size: 1.1rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   border-bottom: 1px solid #eee;
+ }
+
+ .scnd_btn {
+   width: 148px !important;
+   border: 3px solid #fff !important;
+ }
+
+ .top_navbar .navbar-nav {
+   display: flex;
+   border-left: 1px solid #eee;
+   width: 100%;
+ }
+
+ .navbar-nav button {
+   width: 140px;
+   height: 46px;
+   font-size: 15px;
+   background: transparent;
+   border: none;
+   letter-spacing: 2px;
+   font-weight: 600;
+ }
+
+ .top_navbar .navbar-nav span select,
+ .top_navbar .navbar-nav span input {
+   min-width: 200px;
+   height: 41px;
+   border: none;
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 300;
+ }
+
+ .chart_alignment {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }

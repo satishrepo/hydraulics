@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (max-width: 1320px) {
+
+  html,
+  body {
+    zoom: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  html,
+  body {
+    zoom: 0.95;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  html,
+  body {
+    zoom: 0.9;
+  }
+}
+
+label {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar {
+  padding: 0.5rem 5rem;
+  justify-content: center;
+  gap: 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #5c6a77;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5c6a77;
+  text-decoration: none;
+}
+
+input,
+select {
+  border-radius: 4px;
+  padding-left: calc(1.125em - 1px);
+  padding-right: calc(1.125em - 1px);
+  width: 100%;
+  height: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  border: 5px;
+  background-color: #ffffff;
+}
+
+img {
+  height: auto;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.MuiDataGrid-columnHeader--moving {
+  background-color: #ffffff !important;
+}
+
+.datagrid-container {
+  width: 94%;
+  margin: 2rem auto;
+  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px !important;
+}
+
+.css-1t36m90-MuiDataGrid-root.MuiDataGrid-autoHeight {
+  border: none !important;
+}
+
+.action-btn {
+  background-color: #343a40 !important;
+  color: #fff !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ml-2 {
+  margin-left: 2px;
+}
+
+.donut-container {
+  width: 50%;
+  margin: auto;
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 30px 0px rgb(82 63 105 / 8%) !important;
+}
+
+.navbar_left {
+  width: 100%;
+}
+
+.logo-nav-img img {
+  width: 90px !important;
+}
+
+.navbar-nav li {
+  /* width: 75px; */
+  width: 100%;
+}
+
+.navbar-nav li button {
+  width: 100%;
+}
+
+.nav-icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nav-icon div i,
+.nav-icon i {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5352ed;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 11px;
+}
+
+.navbar-container:nth-child(1) {
+  background-color: rgb(83 82 237) !important;
+}
+
+.dropdown-content {
+  padding: 0;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.dropdown-content a i {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  background: #f8f8f8;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #ccc;
+  margin-right: 6px;
+  font-size: 11px;
+}
+
+.testbenches-header-container {
+  flex-direction: row !important;
+  justify-content: space-between;
+  width: 94%;
+  padding: 13px !IMPORTANT;
+  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px !important;
+}
+
+.css-1s0hp0k-MuiDataGrid-columnHeadersInner {
+  background: #6160ef;
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 10px;
+}
+
+.MuiDataGrid-columnHeader--moving {
+  background-color: transparent !important;
+}
+
+.css-1t36m90-MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+  font-size: 14px !important;
+  letter-spacing: 2px !important;
+  font-weight: 500 !important;
+}
+
+.MuiDataGrid-cell--withRenderer div button {
+  border: none;
+  color: #6160ef;
+  font-size: 11px;
+  width: 35px;
+  height: 35px;
+  background: #6160ef38;
+  border-radius: 5px;
+  border: 2px solid #6160ef;
+}
+
+.MuiDataGrid-cell--withRenderer div button svg {
+  width: 22px;
+  height: 22px;
+}
+
+.css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel,
+.css-levciy-MuiTablePagination-displayedRows {
+  margin: 0 !important;
+  letter-spacing: 1px !important;
+  font-size: 14px !important;
+  opacity: .8 !important;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+  padding-right: 24px;
+  min-width: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+  border: 1px solid #ccc;
+  margin: 1rem 0.5rem;
+  border-radius: 5px;
+  padding: 6px;
+  display: flex;
+}
+
+.testbenches-header-content1 .btn-light {
+  background: #6160ef;
+  color: #fff;
+  border: none;
+  padding: 6px 20px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btn.btn-dark {
+  background: #6160ef;
+  color: #fff;
+  border: none;
+  padding: 11px 30px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.common_sec {
+  width: 94%;
+  margin: 1rem auto;
+  padding: 13px !IMPORTANT;
+  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px !important;
+}
+
+.common_input input,
+.common_input select {
+  width: 100%;
+  height: 40px !important;
+  border: 1px solid #6160ef;
+  margin: 0.6rem 0;
+  border-radius: 4px;
+  color: #363636;
+}
+
+.roles_grid {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.roles_grid .form-check-inline input {
+  width: 20px !IMPORTANT;
+  height: 20px !important;
+  margin-right: 7px;
+}
+
+.roles_grid .form-check-inline label {}
+
+
+.roles_grid .heading {
+  width: 100%;
+}
+
+.btn-warning {
+  width: 120px;
+  height: 43px;
+  border-radius: 7px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.column-heading {
+  background: #6160ef21 !important;
+  padding: 10px;
+  border: 2px solid #6160ef !important;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6160ef;
+  border-radius: 5px;
+}
+
+.column-heading h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.theading {
+  background: #6160ef;
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 10px;
+}
+
+.testbenches-table-content2 {
+  margin: 1rem 0;
+}
+
+.testbenches-table-content2 table td {
+  padding: 1rem 0.3rem;
+  letter-spacing: 1px;
+}
+
+.d_Flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.testbenches-table-content2 table td .form-check-input {
+  position: relative;
+  margin-right: 10px;
+  height: auto !important;
+}
+
+.d_Flex .form-check-label {
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.disabled {
+  background-color: rgb(211, 203, 203);
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.disable-button {
+  cursor: not-allowed;
+  pointer-events: none;
+}
